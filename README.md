@@ -1,5 +1,5 @@
 # data-512-final-project
-This is our final project of Data512 Human-Centered Data Science. Our goal is to practice how to complete the whole data science project, from gathering data, processing data, then setting up our researching questions(Null Hypotheis), proposaling the proper methodology, then leading to the final conclusion and writing up a constructed research report. For this project, I used cov-19 related data around Daily Cases, Infection Rate and Vaccine Data to find the correlation between Infection Rate and Vaccine Rate. All analysis are performed in a single Jupyter notebook, named hcds-final-project.ipynb.
+This is our final project of Data512 Human-Centered Data Science. Our goal is to practice how to complete the whole data science project, from gathering data, processing data, then setting up our researching questions (Null Hypothesis), proposing the proper methodology, then leading to the final conclusion and writing up a constructed research report. For this project, I used cov-19 related data around Daily Cases, Infection Rate and Vaccine Data to find the correlation between Infection Rate and Vaccine Rate. All analysis are performed in a single Jupyter notebook, named hcds-final-project.ipynb.
 
 ## Data sources
 
@@ -59,7 +59,7 @@ https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/reporting-counti
 
 Based on the data visualization "7 days rolling average infection rate and Vaccine rate at Palm Beach, FL", we can see when the Cov-19 vaccine started at 2021-01, the infection rate went down until Delta variant came to the picture around 2021-07.
 
-NULL Hypotheis:
+NULL Hypothesis:
  There is no correlation between Vaccine Rate and Daily Infection Rate of 7 days rolling average
  
 Considering Delta Variant Impact: 
