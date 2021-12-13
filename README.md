@@ -1,5 +1,5 @@
 # data-512-final-project
-
+This is our final project of Data512 Human-Centered Data Science. Our goal is to practice how to complete the whole data science project, from gathering data, processing data, then setting up our researching questions(Null Hypotheis), proposaling the proper methodology, then leading to the final conclusion. For this project, I used cov-19 related data around Daily Cases, Infection Rate and Vaccine Data to find the correlation between Infection Rate and Vaccine Rate. All analysis are performed in a single Jupyter notebook, named hcds-final-project.ipynb.
 
 ## Data sources
 
@@ -8,26 +8,29 @@ https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-M
   + Licesnse: Public Use (User Agreement: https://www.cdc.gov/nchs/data_access/restrictions.htm)
   + These columns in this data are used in this project
     + 'Date'
-    + 'Order Code' - unclear waht it means
+    + 'Order Code'
     + 'FIPS' - the FIPS code
     + 'Face_Masks_Required_in_Public' - whether face mask is mandated
  
 + The RAW_us_confirmed_cases.csv file from the Kaggle repository of John Hopkins University COVID-19 data.
 https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university?select=RAW_us_confirmed_cases.csv
- 1. License: Attribution 4.0 International (CC BY 4.0)
- 2. Three columns in this data are used: 'FIPS' - the FIPS code
- 3. All the date columns recording the raw confirmed cases are used
+  + License: Attribution 4.0 International (CC BY 4.0)
+  + Three columns in this data are used: 'FIPS' - the FIPS code
+  + All the date columns recording the raw confirmed cases are used
 
 + The New York Times mask compliance survey data. 
 https://github.com/nytimes/covid-19-data/tree/master/mask-use
- 1. License: Copyright 2021 by The New York Times Company
- 2. All columns are used in this project: COUNTYFP - the FIPS code
- 3. All columns representing the frequency of mask wearing
+  + License: Copyright 2021 by The New York Times Company
+  + All columns are used in this project: COUNTYFP - the FIPS code
+  + All columns representing the frequency of mask wearing
 
 + CDC’s COVID Data Tracker provides COVID-19 vaccination data in the United States
 https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/reporting-counties.html
- 1. License:
- 2. 
+  + Licesnse: Public Use (User Agreement: https://www.cdc.gov/nchs/data_access/restrictions.htm)
+  + These columns in this data are used in this project
+    + 'Date'
+    + 'FIPS' - the FIPS code
+    + 'Series_Complete_Pop_Pct' - Vaccine Rate
 
 
 ## Data processing
@@ -76,3 +79,4 @@ From the statsmodels.api OLS Regression Results:
 
 + P_Value is 0.000 which < 0.05, so we can reject NULL Hypotheis: There is no correlation between Vaccine Rate and Daily Infection Rate of 7 days rolling average.
 + R-squared is 0.851, meaning the goodness of LinearRegression model fit.
+
