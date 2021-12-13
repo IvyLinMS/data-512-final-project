@@ -1,5 +1,5 @@
 # data-512-final-project
-This is our final project of Data512 Human-Centered Data Science. Our goal is to practice how to complete the whole data science project, from gathering data, processing data, then setting up our researching questions (Null Hypothesis), proposing the proper methodology, then leading to the final conclusion and writing up a constructed research report. For this project, I used cov-19 related data around Daily Cases, Infection Rate and Vaccine Data to find the correlation between Infection Rate and Vaccine Rate. All analysis are performed in a single Jupyter notebook, named hcds-final-project.ipynb.
+This is our final project of Data512 Human-Centered Data Science. Our goal is to practice how to complete the whole data science project, from gathering data, processing data, then setting up our researching questions (Null Hypothesis), proposing the proper methodology, then leading to the final conclusion and writing up a constructed research report. For this project, I used cov-19 related data around Daily Cases, Infection Rate and Vaccine Data to find the correlation between Infection Rate and Vaccine Rate. All analysis are performed in a single Jupiter notebook, named hcds-final-project.ipynb.
 
 ## Data sources
 
