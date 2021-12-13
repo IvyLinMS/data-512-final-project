@@ -26,7 +26,9 @@ https://github.com/nytimes/covid-19-data/tree/master/mask-use
 
 + CDC’s COVID Data Tracker provides COVID-19 vaccination data in the United States
 https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/reporting-counties.html
-  + Licesnse: Public Use (User Agreement: https://www.cdc.gov/nchs/data_access/restrictions.htm)
+  + Licesnse: Public Domain U.S. Government
+  + Overall US COVID-19 Vaccine administration and vaccine equity data at county level.
+  + The dataset has 1.09M Rows and 32 Columns
   + These columns in this data are used in this project
     + 'Date'
     + 'FIPS' - the FIPS code
