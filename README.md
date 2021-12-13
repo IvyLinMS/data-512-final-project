@@ -1,5 +1,5 @@
 # data-512-final-project
-This is our final project of Data512 Human-Centered Data Science. Our goal is to practice how to complete the whole data science project, from gathering data, processing data, then setting up our researching questions(Null Hypotheis), proposaling the proper methodology, then leading to the final conclusion. For this project, I used cov-19 related data around Daily Cases, Infection Rate and Vaccine Data to find the correlation between Infection Rate and Vaccine Rate. All analysis are performed in a single Jupyter notebook, named hcds-final-project.ipynb.
+This is our final project of Data512 Human-Centered Data Science. Our goal is to practice how to complete the whole data science project, from gathering data, processing data, then setting up our researching questions(Null Hypotheis), proposaling the proper methodology, then leading to the final conclusion and writing up a constructed research report. For this project, I used cov-19 related data around Daily Cases, Infection Rate and Vaccine Data to find the correlation between Infection Rate and Vaccine Rate. All analysis are performed in a single Jupyter notebook, named hcds-final-project.ipynb.
 
 ## Data sources
 
@@ -82,3 +82,7 @@ From the statsmodels.api OLS Regression Results:
 + P_Value is 0.000 which < 0.05, so we can reject NULL Hypotheis: There is no correlation between Vaccine Rate and Daily Infection Rate of 7 days rolling average.
 + R-squared is 0.851, meaning the goodness of LinearRegression model fit.
 
+## Known Issues:
++ Palm Beach, FL never has Masking Mandated requirement
++ The result can be impacted by other facts: Summer break and Nationwide reopening, etc
++ Spotsylvania County, VA only has 1/10 of population of Palm Beach, FL 
