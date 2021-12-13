@@ -5,12 +5,12 @@
 
 + The CDC dataset of masking mandates by county.
 https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i
- 1. Licesnse: Public Use (User Agreement: https://www.cdc.gov/nchs/data_access/restrictions.htm)
- 2. These columns in this data are used in this project
-  + 'Date'
-  + 'Order Code' - unclear waht it means
-  + 'FIPS' - the FIPS code
-  + 'Face_Masks_Required_in_Public' - whether face mask is mandated
+  + Licesnse: Public Use (User Agreement: https://www.cdc.gov/nchs/data_access/restrictions.htm)
+  + These columns in this data are used in this project
+    + 'Date'
+    + 'Order Code' - unclear waht it means
+    + 'FIPS' - the FIPS code
+    + 'Face_Masks_Required_in_Public' - whether face mask is mandated
  
 + The RAW_us_confirmed_cases.csv file from the Kaggle repository of John Hopkins University COVID-19 data.
 https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university?select=RAW_us_confirmed_cases.csv
